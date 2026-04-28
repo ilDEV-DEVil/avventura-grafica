@@ -1,0 +1,43 @@
+.game-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Press Start 2P', cursive !important;
+}
+
+.game-ui {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* gap: 16px; */
+}
+
+.chapter-indicator {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  border: 1px solid #ffd700;
+  z-index: 100;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.character-display-area {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+/* Funzione per assicurare il font pixelated in tutti gli elementi */
+.game-container *,
+.game-ui *,
+.chapter-indicator,
+.game-dialogue {
+  font-family: 'Press Start 2P', cursive !important;
+  image-rendering: pixelated;
+}
+

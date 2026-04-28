@@ -1,0 +1,5 @@
+vorrei creare una avventura grafica, le tecnologie che voglio utilizzare per questo progetto sono React, Vite, mentre per i personaggi e i background vorrei utilizzare Rive. vorrei che iniziassi a crearmi la struttura di base del progetto, tenendo conto che tutta la configurazione dell'avventura grafica sarà impostata in un file json, mi immagino che questo file sia strutturato con tipo: titolo del gioco, sottotitolo, un array con i vari capitoli, per ogni capitolo ci saranno il background che sara un possibilie file di rive, più i dialoghi, nei dialoghi che credo sarà un array, in ogni oggetto ci sarà chi sta parlando cosa dice, in più in qualche punto l'utente deve avere la scelta di scegliere 2 opzioni dopo che un personaggio gli fa una domanda, e in base alla risposta che da i dialoghi cambieranno, inoltre in alcuni punti verrà mostrato un video che caricherò io, un esempio di dialogo è:
+personaggio 1: ei ciao
+personaggio 2: ciao, come stai?
+personaggio 1 (ovvero il giocatore): può scegliere tra bene o male
+in base alla scelta i dialoghi cambieranno, oppure potrebbe mostrare un video

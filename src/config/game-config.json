@@ -1,0 +1,91 @@
+{
+  "title": "Road to 'RuPaul Dragrace'",
+  "subtitle": "Una storia interattiva",
+  "backgroundMusic": "/audio/glitter-switchfire.mp3",
+  "homeBackground": "/images/backgrounds/boxe-gym.jpeg",
+  "characters": {
+    "Personaggio 1": {
+      "image": "/images/character1.png",
+      "name": "Personaggio 1"
+    },
+    "Nimesh": {
+      "image": "/images/characters/nimesh.png", 
+      "name": "Nimesh"
+    }
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Capitolo 1: L'Inizio",
+      "background": "/images/backgrounds/boxe-gym.jpeg",
+      "dialogues": [
+        {
+          "id": 1,
+          "character": "Personaggio 1",
+          "text": "Ei ciao!",
+          "type": "dialogue"
+        },
+        {
+          "id": 2,
+          "character": "Nimesh", 
+          "text": "Ciao, come stai?",
+          "type": "dialogue"
+        },
+        {
+          "id": 3,
+          "character": "Nimesh",
+          "text": "Spero che tutto vada bene oggi!",
+          "type": "question",
+          "choices": [
+            {
+              "text": "Bene, grazie!",
+              "next": "good-choice"
+            },
+            {
+              "text": "Male, purtroppo...",
+              "next": "bad-choice"
+            }
+          ]
+        }
+      ],
+      "choices": {
+        "good-choice": [
+          {
+            "id": 4,
+            "character": "Personaggio 1",
+            "text": "Mi fa molto piacere sentirlo!",
+            "type": "dialogue"
+          }
+        ],
+        "bad-choice": [
+          {
+            "id": 5,
+            "character": "Personaggio 1", 
+            "text": "Mi dispiace sentirlo... succede qualcosa?",
+            "type": "dialogue"
+          },
+          {
+            "id": 6,
+            "character": "Personaggio 1",
+            "text": "Guarda questo video, forse ti tirerà su il morale!",
+            "type": "video",
+            "videoPath": "/videos/video1.mp4"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "title": "Capitolo 2: La Continuazione",
+      "background": "chapter2-background.riv",
+      "dialogues": [
+        {
+          "id": 7,
+          "character": "Personaggio 1",
+          "text": "E ora continuiamo la nostra avventura...",
+          "type": "dialogue"
+        }
+      ]
+    }
+  ]
+}

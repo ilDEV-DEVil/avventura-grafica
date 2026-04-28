@@ -1,0 +1,47 @@
+.video-container {
+  margin: 20px 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video-container video {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+
+.video-container video:focus {
+  outline: none;
+}
+
+/* Stile per il video in fullscreen */
+.fullscreen-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullscreen-video video {
+  border-radius: 0;
+  box-shadow: none;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Nascondi i controlli in fullscreen */
+.fullscreen-video:-webkit-full-screen {
+  background-color: black;
+}
+
+.fullscreen-video:-moz-full-screen {
+  background-color: black;
+}
+
+.fullscreen-video:-ms-fullscreen {
+  background-color: black;
+}
+
+.fullscreen-video:fullscreen {
+  background-color: black;
+}

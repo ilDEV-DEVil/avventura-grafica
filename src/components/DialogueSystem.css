@@ -1,0 +1,79 @@
+.dialogue-container {
+  width: 80vw;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 16px auto;
+  gap: 16px;
+}
+
+.dialogue-box {
+  background: rgba(0, 0, 0, 0.8);
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  font-family: 'Press Start 2P', cursive !important;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.character-name {
+  font-weight: bold;
+  font-size: 18px;
+  color: #ffd700;
+  margin-bottom: 10px;
+}
+
+.dialogue-text {
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.next-button {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  float: right;
+  transition: background-color 0.3s;
+}
+
+.next-button:hover {
+  background: #45a049;
+}
+
+.choices-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.choice-button {
+  background: #2196f3;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  flex: 1;
+  min-width: 120px;
+  transition: background-color 0.3s;
+}
+
+.choice-button:hover {
+  background: #1976d2;
+}
+
+.video-container {
+  background: black;
+  border-radius: 10px;
+  overflow: hidden;
+}

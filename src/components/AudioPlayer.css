@@ -1,0 +1,20 @@
+.audio-player {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+}
+
+.audio-player audio {
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.audio-player audio:hover {
+  opacity: 1;
+}
+
+/* Nascondi completamente i controlli per una vera sottofondo */
+.audio-player.no-controls {
+  display: none;
+}
