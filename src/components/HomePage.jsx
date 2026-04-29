@@ -1,6 +1,6 @@
 import React from 'react';
 import BackgroundImage from './BackgroundImage';
-import gameConfig from '../config/game-config.json';
+import gameConfig from '../config/game-config_copy.json';
 import './HomePage.css';
 
 const HomePage = ({ onStartGame }) => {

@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import CharacterIcon from './CharacterIcon';
 import VideoPlayer from './VideoPlayer';
-import gameConfig from '../config/game-config.json';
+// import gameConfig from '../config/game-config_copy.json';
+import gameConfig from '../config/game-config_copy.json';
 import './DialogueSystem.css';
 
 const DialogueSystem = ({ dialogues, onChoice, onVideoStart, onVideoEnd, onDialoguesComplete, onDialogueIndexChange }) => {

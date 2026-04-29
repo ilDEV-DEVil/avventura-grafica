@@ -4,8 +4,8 @@ import CharacterIcon from './CharacterIcon';
 import DialogueSystem from './DialogueSystem';
 import AudioPlayer from './AudioPlayer';
 import BackgroundImage from './BackgroundImage';
-import gameConfig from '../config/game-config.json';
-// import gameConfig from '../config/game-config copy.json';
+import gameConfig from '../config/game-config_copy.json';
+// import gameConfig from '../config/game-config_copy copy.json';
 import './GameContainer.css';
 
 const GameContainer = ({ onBackToHome }) => {

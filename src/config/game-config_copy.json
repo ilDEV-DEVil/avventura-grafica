@@ -1,0 +1,391 @@
+{
+  "title": "Road to 'RuPaul Drag Race'",
+  "subtitle": "Una storia interattiva",
+  "backgroundMusic": "/audio/glitter-switchfire.mp",
+  "homeBackground": "/images/backgrounds/rupaul.jpg",
+  "characters": {
+    "Gege": {
+      "image": "/images/characters/gege.png",
+      "name": "Gege"
+    },
+    "Voldemort": {
+      "image": "/images/characters/voldemort.png",
+      "name": "Voldemort"
+    },
+    "Alle": {
+      "image": "/images/characters/alle.png",
+      "name": "Alle"
+    },
+    "Marilisa": {
+      "image": "/images/characters/marilisa.png",
+      "name": "Marilisa"
+    },
+    "Nimesh": {
+      "image": "/images/characters/nimesh.png",
+      "name": "Nimesh"
+    },
+    "Gio": {
+      "image": "/images/characters/gio.png",
+      "name": "Gio"
+    },
+    "Marika": {
+      "image": "/images/characters/marika.png",
+      "name": "Marika"
+    }
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Capitolo 1: Mirandopoli",
+      "background": "/images/backgrounds/gym-pole-dance.jpg",
+      "dialogues": [
+        {
+          "id": 1,
+          "character": "Voldemort",
+          "text": "Aaah... ti ricordi di me? Sono la tua prima insegnante di pole dance. Aaaavaadaaa Kedavraaaa",
+          "type": "dialogue"
+        },
+        {
+          "id": 2,
+          "character": "Gege",
+          "text": "Come potrei dimenticarti dopo tutti i casini che hai fatto!!!",
+          "type": "dialogue"
+        },
+        {
+          "id": 3,
+          "character": "Voldemort",
+          "text": "È vero che te ne vuoi andare via da Mirandopoli per andare a Milanopoli?",
+          "type": "dialogue"
+        },
+        {
+          "id": 4,
+          "character": "Gege",
+          "text": "Sì. Voglio partecipare alla RuPaul Drag Race Special Edition.",
+          "type": "dialogue"
+        },
+        {
+          "id": 5,
+          "character": "Voldemort",
+          "text": "Va bene... prima di lasciarti andare, vediamo cosa hai imparato fino ad adesso.",
+          "type": "dialogue"
+        },
+        {
+          "id": 6,
+          "character": "Voldemort",
+          "text": "Guarda questo video...",
+          "type": "video",
+          "videoPath": "/videos/dance.mp4"
+        },
+        {
+          "id": 7,
+          "character": "Voldemort",
+          "text": "Bene... Ti lascerò proseguire... 😅",
+          "type": "dialogue"
+        }
+      ],
+      "choices": {}
+    },
+    {
+      "id": 2,
+      "title": "Capitolo 2: L'incontro con Alle",
+      "background": "/images/backgrounds/foresta.jpg",
+      "dialogues": [
+        {
+          "id": 18,
+          "character": "Alle",
+          "text": "Gege! Vieni con me per un'avventura?",
+          "type": "dialogue"
+        },
+        {
+          "id": 19,
+          "character": "Gege",
+          "text": "Devo andare a Milanopoli, Alle...",
+          "type": "dialogue"
+        },
+        {
+          "id": 20,
+          "character": "Alle",
+          "text": "Ok, allora... dobbiamo mangiare ma non abbiamo tempo quindi...",
+          "type": "dialogue"
+        },
+        {
+          "id": 21,
+          "character": "Alle",
+          "text": "Guarda questo video...",
+          "type": "video",
+          "videoPath": "/videos/video_alle1.mp4"
+        },
+        {
+          "id": 22,
+          "character": "Alle",
+          "text": "Allora vieni con me per l'avventura?",
+          "type": "dialogue"
+        },
+        {
+          "id": 23,
+          "character": "Alle",
+          "text": "Guarda questo video...",
+          "type": "video",
+          "videoPath": "/videos/video_alle2.mp4"
+        },
+        {
+          "id": 24,
+          "character": "Alle",
+          "text": "C'è anche la Mimi!",
+          "type": "dialogue"
+        },
+        {
+          "id": 25,
+          "character": "Gege",
+          "text": "No. Alle ho una meta.",
+          "type": "dialogue"
+        },
+        {
+          "id": 26,
+          "character": "Alle",
+          "text": "Capisco. È giusto che tu segua i tuoi sogni. Sicuramente troverò qualcuno con cui andare. (e perchè sarà proprio Karim?)",
+          "type": "dialogue"
+        }
+      ],
+      "choices": {}
+    },
+    {
+      "id": 3,
+      "title": "Capitolo 3: Marilisa",
+      "background": "/images/backgrounds/teatro.jpg",
+      "dialogues": [
+        {
+          "id": 28,
+          "character": "Marilisa",
+          "text": "Benvenuta a Milanopoli. Sei qui per la Drag Race, vero?",
+          "type": "dialogue"
+        },
+        {
+          "id": 29,
+          "character": "Gege",
+          "text": "Sì. E la vincerò.",
+          "type": "dialogue"
+        },
+        {
+          "id": 30,
+          "character": "Marilisa",
+          "text": "Per partecipare dovrai dimostrarmi le tue doti recitative. lo sai vero che ne avrai bisogno?",
+          "type": "dialogue"
+        },
+        {
+          "id": 31,
+          "character": "Marilisa",
+          "text": "Guarda questo video...",
+          "type": "video",
+          "videoPath": "/videos/video-marilisa.mp4"
+        },
+        {
+          "id": 32,
+          "character": "Marilisa",
+          "text": "Le tue doti recitative sono straordinarie. Hai anche finto di esserti rotta una gamba. Vai avanti.",
+          "type": "dialogue"
+        }
+      ],
+      "choices": {}
+    },
+    {
+      "id": 4,
+      "title": "Capitolo 4: Gio",
+      "background": "/images/backgrounds/gym-classic-dance.jpg",
+      "dialogues": [
+        {
+          "id": 33,
+          "character": "Gio",
+          "text": "Quindi tu sei Gege.",
+          "type": "dialogue"
+        },
+        {
+          "id": 34,
+          "character": "Gege",
+          "text": "Dipende da chi lo chiede.",
+          "type": "dialogue"
+        },
+        {
+          "id": 35,
+          "character": "Gio",
+          "text": "Vuoi vincere la Drag Race? Allora dimostrami le tue doti di ballo, usa questi accessori giocattolo e sorprendimi.",
+          "type": "dialogue"
+        },
+        {
+          "id": 36,
+          "character": "Gio",
+          "text": "Guarda questo video...",
+          "type": "video",
+          "videoPath": "/videos/video-gio.mp4"
+        },
+        {
+          "id": 37,
+          "character": "Gio",
+          "text": "Incredibile. Puoi proseguire.",
+          "type": "dialogue"
+        }
+      ],
+      "choices": {}
+    },
+    {
+      "id": 5,
+      "title": "Capitolo 5: Nimesh",
+      "background": "/images/backgrounds/boxe-gym.jpeg",
+      "dialogues": [
+        {
+          "id": 38,
+          "character": "Nimesh",
+          "text": "Gege. Ho sentito parlare di te.",
+          "type": "dialogue"
+        },
+        {
+          "id": 39,
+          "character": "Nimesh",
+          "text": "Milanopoli è un ambiente combattivo. Sai reggere il palco?",
+          "type": "dialogue"
+        },
+        {
+          "id": 40,
+          "character": "Nimesh",
+          "text": "Cosa fai?",
+          "type": "question",
+          "choices": [
+            {
+              "text": "Usare la tecnica segreta",
+              "next": "nimesh-wrong"
+            },
+            {
+              "text": "Mettermi in guardia",
+              "next": "nimesh-correct"
+            }
+          ]
+        }
+      ],
+      "choices": {
+        "nimesh-wrong": [
+          {
+            "id": 41,
+            "character": "Nimesh",
+            "text": "No. Quella tecnica non funzionerà mai.",
+            "type": "dialogue"
+          },
+          {
+            "id": 42,
+            "character": "Nimesh",
+            "text": "Riprova.",
+            "type": "dialogue"
+          },
+          {
+            "id": 43,
+            "character": "Nimesh",
+            "text": "Cosa fai?",
+            "type": "question",
+            "choices": [
+              {
+                "text": "Usare la tecnica segreta",
+                "next": "nimesh-wrong"
+              },
+              {
+                "text": "Mettermi in guardia",
+                "next": "nimesh-correct"
+              }
+            ]
+          }
+        ],
+        "nimesh-correct": [
+          {
+            "id": 44,
+            "character": "Gege",
+            "text": "Mi metto in guardia.",
+            "type": "dialogue"
+          },
+          {
+            "id": 45,
+            "character": "Nimesh",
+            "text": "Guarda questo video...",
+            "type": "video",
+            "videoPath": "/videos/video-nimesh.mp4"
+          },
+          {
+            "id": 46,
+            "character": "Nimesh",
+            "text": "Sì. Sai reggere il palco. Sei pronta.",
+            "type": "dialogue"
+          },
+          {
+            "id": 47,
+            "character": "Nimesh",
+            "text": "Vai a prenderti quel palco.",
+            "type": "dialogue"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "Capitolo 6: Marika",
+      "background": "/images/backgrounds/gym-pole-dance.jpg",
+      "dialogues": [
+        {
+          "id": 49,
+          "character": "Marika",
+          "text": "Per partecipare alla RuPaul Drag Race bisogna avere anche della sana pazzia, quindi ecco uno dei miei stupefacenti PREFERIRESTI.",
+          "type": "dialogue"
+        },
+        {
+          "id": 50,
+          "character": "Marika",
+          "text": "Preferiresti: vincere 5000€ ma Paolo Ruffini ne vincerebbe 50000 per finanziare i suoi programmi tv/radio per sempre o farne vincere 5000 a Ruffini e smette di fare programmi tv/radio per sempre?",
+          "type": "question",
+          "choices":  [
+            {
+              "text": "5000€ io e 50000 Ruffini!",
+              "next": "good-choice"
+            },
+            {
+              "text": "5000€ Ruffini, Boia he bella hosa he hai detto!",
+              "next": "good-choice"
+            }
+          ]
+        }
+      ],
+      "choices": {
+        "good-choice": [
+          {
+            "id": 4,
+            "character": "Marika",
+            "text": "Perfetto. Adesso sì che sei pronta per il gran finale.",
+            "type": "dialogue"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "title": "Finale: RuPaul Drag Race Special Edition",
+      "background": "/images/backgrounds/rupaul.jpg",
+      "dialogues": [
+        {
+          "id": 52,
+          "character": "Gege",
+          "text": "Eccomi. Sono sul palco della RuPaul Drag Race Special Edition. Ora darò tutta me stessa",
+          "type": "dialogue"
+        },
+        {
+          "id": 53,
+          "character": "Gege",
+          "text": "Guarda questo video...",
+          "type": "video",
+          "videoPath": "/videos/finale.mp4"
+        },
+        {
+          "id": 54,
+          "character": "Gege",
+          "text": "🎉 Ce l'ho fatta! Ho vinto il premiooooo!!  🎉",
+          "type": "dialogue"
+        }
+      ],
+      "choices": {}
+    }
+  ]
+}
